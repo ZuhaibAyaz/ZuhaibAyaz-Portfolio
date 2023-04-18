@@ -291,3 +291,80 @@ background-color: #424874;
     background-positon-x: 0px;
   }
 }
+
+/* CONTACT PAGE  */
+
+.head-container{
+  padding: 1% 10%;
+}
+#header{
+  /* background-color: ; */
+  background: linear-gradient(-45deg, #F4EEFF, #DCD6F7, #A6B1E1,#424874);
+background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+  height: 15vh;
+}
+@keyframes gradient {
+0% {
+  background-position: 0% 50%;
+}
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
+}
+
+/* FORM SECTION */
+#form-id{
+  background-color: #F4EEFF;
+}
+.form-container{
+  padding: 6%;
+  
+}
+.send{
+  border-radius: 9999px;
+  padding-left: calc(1em + 0.25em);
+  padding-right: calc(1em + 0.25em);
+ font-size: 24px;
+}
+.butt{
+  margin: 20px 0 80px;
+  border-width: 2px;
+  height: auto;
+  padding: 5%;
+  text-align: center;
+  
+}
+.send:hover{
+  background-color: #DCD6F7;
+}
+.form-control{
+  height: 60px;
+}
+.detail{
+  height: 100px;
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} 
+
+.col-lg-6 {
+  flex-basis: calc(50% - 10px);
+}
+
+
+.letter {
+  padding-left: 3%;
+  zoom: 120%;
+ 
+}
+
+.form-area{
+  padding-top: 10%;
+}
