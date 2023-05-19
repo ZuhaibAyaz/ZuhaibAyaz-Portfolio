@@ -81,6 +81,12 @@ a{
     
 }
 
+.navbar-collapse{
+ text-align: right;
+}
+
+
+
 /* TITLE  */
 
 .container-fluid{
