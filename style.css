@@ -367,10 +367,19 @@ animation: gradient 15s ease infinite;
 /* FORM SECTION */
 #form-id{
   background-color: #F4EEFF;
+  text-align: center;
+
+  
 }
 .form-container{
   padding: 6%;
+
   
+  
+}
+#fcenter{
+
+ margin:auto;
 }
 .send{
   border-radius: 9999px;
@@ -410,6 +419,7 @@ animation: gradient 15s ease infinite;
 .letter {
   padding-left: 3%;
   zoom: 120%;
+  max-width: 100%;
  
 }
 
