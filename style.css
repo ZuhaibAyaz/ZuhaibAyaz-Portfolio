@@ -432,6 +432,8 @@ animation: gradient 15s ease infinite;
 .card-container{
   padding: 6%;
   text-align: center;
+  margin: auto;
+  float: none;
 }
 
 .card{
